@@ -25,6 +25,7 @@ public class Main {//mysql bağlantısı için gerekli olan url,username ve pass
                 System.out.println("********************************");
 
             }
+            connect.close();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
